@@ -12,7 +12,7 @@ const navigation = [
   { name: 'Servicios', href: '#servicios' },
   { name: 'Planes', href: '#planes' },
   { name: 'Paginas Recomendadas', href: '#recomendadas' },
-  { name: 'Bodega', href: '' },
+  { name: 'Bodega', href: 'https://fuzioncargo.com/seguimiento-v2/' },
   { name: 'Rastrear Paquete', to: '/tracking' },
 ]
 
