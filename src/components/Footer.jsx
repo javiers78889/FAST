@@ -22,10 +22,10 @@ export const Footer = () => {
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Sucursales</h2>
                             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                                 <li className="mb-4">
-                                    <a href="https://wa.me/50767316173?text=Hola,%20estoy%20interesado%20en%20abrir%20un%20casillero%20en%20chame" className="hover:underline">La Chorrera</a>
+                                    <a href="https://wa.me/50761125919?text=Hola,%20estoy%20interesado%20en%20abrir%20un%20casillero%20en%20Chorrera" className="hover:underline">La Chorrera</a>
                                 </li>
                                 <li>
-                                    <a href="https://wa.me/50767316173?text=Hola,%20estoy%20interesado%20en%20abrir%20un%20casillero%20en%20chorrera" className="hover:underline">Villa Lucre</a>
+                                    <a href="https://wa.me/50761125919?text=Hola,%20estoy%20interesado%20en%20abrir%20un%20casillero%20en%20Villa%20Lucre" className="hover:underline">Villa Lucre</a>
                                 </li>
                             </ul>
                         </div>
@@ -33,10 +33,10 @@ export const Footer = () => {
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Siguenos</h2>
                             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                                 <li className="mb-4">
-                                    <a href="https://www.instagram.com/paperdogpty?igsh=NmVmMXR5enRwejNn" className="hover:underline">Instagram</a>
+                                    <a href="https://www.instagram.com/fastshippingags?igsh=MTF5Nmw2dTV6eTQ2cA==" className="hover:underline">Instagram</a>
                                 </li>
                                 <li>
-                                    <a href="https://www.instagram.com/paperdogpty?igsh=NmVmMXR5enRwejNn" className="hover:underline">Facebook</a>
+                                    <a href="https://www.instagram.com/fastshippingags?igsh=MTF5Nmw2dTV6eTQ2cA==" className="hover:underline">Facebook</a>
                                 </li>
                             </ul>
                         </div>
