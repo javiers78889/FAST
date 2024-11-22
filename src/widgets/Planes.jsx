@@ -6,7 +6,7 @@ const tiers = [
   {
     name: 'Carga Aerea Miami-Panama',
     id: 'tier-hobby',
-    href: 'https://wa.me/50767316173?text=Hola,%20estoy%20interesado%20en%20abrir%20un%20casillero',
+    href: 'https://wa.me/50761125919?text=Hola,%20estoy%20interesado%20en%20abrir%20un%20casillero',
     plan: 'lb',
     priceMonthly: '$3.00',
     description: "El plan perfecto si deseas comprar en pequenas cantidades.",
@@ -16,7 +16,7 @@ const tiers = [
   {
     name: 'Carga Maritima',
     id: 'tier-enterprise',
-    href: 'https://wa.me/50767316173?text=Hola,%20estoy%20interesado%20en%20abrir%20un%20casillero',
+    href: 'https://wa.me/50761125919?text=Hola,%20estoy%20interesado%20en%20abrir%20un%20casillero',
     plan: 'pie cúbico',
     priceMonthly: '$15.00',
     description: 'Dedicado a emprendedores y empresas que desean suministrar sus tiendas.',
