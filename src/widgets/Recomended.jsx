@@ -30,41 +30,51 @@ export const Recomended = () => {
                 </p>
 
                 <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-                    <img
-                        alt="Transistor"
-                        src={amazon}
-                        width={158}
-                        height={48}
-                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 shadow-[0_0_10px_2px_#fff,0_0_20px_4px_#fff,0_0_30px_6px_#fff] bg-yellow-200"
-                    />
-                    <img
-                        alt="Reform"
-                        src={ebay}
-                        width={158}
-                        height={48}
-                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 shadow-[0_0_10px_2px_#fff,0_0_20px_4px_#fff,0_0_30px_6px_#fff] bg-green-200"
-                    />
-                    <img
-                        alt="Tuple"
-                        src={aliexpress}
-                        width={158}
-                        height={48}
-                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 shadow-[0_0_10px_2px_#fff,0_0_20px_4px_#fff,0_0_30px_6px_#fff] bg-red-200"
-                    />
-                    <img
-                        alt="SavvyCal"
-                        src={alibaba}
-                        width={158}
-                        height={48}
-                        className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1 shadow-[0_0_10px_2px_#fff,0_0_20px_4px_#fff,0_0_30px_6px_#fff] bg-orange-200"
-                    />
-                    <img
-                        alt="Statamic"
-                        src={wallmart}
-                        width={158}
-                        height={48}
-                        className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1 shadow-[0_0_10px_2px_#fff,0_0_20px_4px_#fff,0_0_30px_6px_#fff] bg-blue-200"
-                    />
+                    <a href="https://amazon.com/">
+                        <img
+                            alt="Transistor"
+                            src={amazon}
+                            width={158}
+                            height={48}
+                            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 shadow-[0_0_10px_2px_#fff,0_0_20px_4px_#fff,0_0_30px_6px_#fff] bg-yellow-200"
+                        />
+                    </a>
+                    <a href="https://ebay.com/">
+                        <img
+                            alt="Reform"
+                            src={ebay}
+                            width={158}
+                            height={48}
+                            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 shadow-[0_0_10px_2px_#fff,0_0_20px_4px_#fff,0_0_30px_6px_#fff] bg-green-200"
+                        />
+                    </a>
+                    <a href="https://aliexpress.com/">
+                        <img
+                            alt="Tuple"
+                            src={aliexpress}
+                            width={158}
+                            height={48}
+                            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 shadow-[0_0_10px_2px_#fff,0_0_20px_4px_#fff,0_0_30px_6px_#fff] bg-red-200"
+                        />
+                    </a>
+                    <a href="https://alibaba.com/">
+                        <img
+                            alt="SavvyCal"
+                            src={alibaba}
+                            width={158}
+                            height={48}
+                            className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1 shadow-[0_0_10px_2px_#fff,0_0_20px_4px_#fff,0_0_30px_6px_#fff] bg-orange-200"
+                        />
+                    </a>
+                    <a href="https://wallmart.com/">
+                        <img
+                            alt="Statamic"
+                            src={wallmart}
+                            width={158}
+                            height={48}
+                            className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1 shadow-[0_0_10px_2px_#fff,0_0_20px_4px_#fff,0_0_30px_6px_#fff] bg-blue-200"
+                        />
+                    </a>
                 </div>
             </div>
         </div>
