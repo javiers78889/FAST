@@ -37,6 +37,7 @@ export const HeroePhone = ({ mobileMenuOpen, cierraModal, navigation }) => {
                                         key={item.name}
                                         to={item.to}
                                         className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                                        onClick={cierraModal}
                                     >
                                         {item.name}
                                     </Link>
@@ -45,6 +46,7 @@ export const HeroePhone = ({ mobileMenuOpen, cierraModal, navigation }) => {
                                     <a
                                         key={item.name}
                                         href={item.href}
+                                        onClick={cierraModal}
                                         className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                                     >
                                         {item.name}
