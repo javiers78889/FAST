@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const Api = 'https://paperdogback-nl6v.onrender.com/paquetesexist'
+const Api = 'https://paperdogback.onrender.com/paquetesexist'
 
 //verifica si el paquete existe
 export const ActualizarPaquete = async (id) => {

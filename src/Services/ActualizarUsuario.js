@@ -1,8 +1,8 @@
 import axios from "axios"
 
-const Api = 'https://paperdogback-nl6v.onrender.com/usuarioexist'
+const Api = 'https://paperdogback.onrender.com/usuarioexist'
 
-const Apid = 'https://paperdogback-nl6v.onrender.com/users'
+const Apid = 'https://paperdogback.onrender.com/users'
 
 //verifica si el paquete existe
 export const EncontrarUsuario = async (id) => {

@@ -6,7 +6,7 @@ import wallmart from '../svg/walmart-ar21.svg'
 
 export const Recomended = () => {
     return (
-        <div id='recomendadas' className="bg-gradient-to-b from-blue-500 to-purple-400 py-24 sm:py-32 ">
+        <div id='recomendadas' className="bg-gradient-to-b from-blue-900 to-black py-24 sm:py-32 ">
             <div className=' flex justify-center items-center'>
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -35,35 +35,35 @@ export const Recomended = () => {
                         src={amazon}
                         width={158}
                         height={48}
-                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 shadow-[0_0_10px_2px_#fff,0_0_20px_4px_#fff,0_0_30px_6px_#fff] bg-yellow-200"
                     />
                     <img
                         alt="Reform"
                         src={ebay}
                         width={158}
                         height={48}
-                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 shadow-[0_0_10px_2px_#fff,0_0_20px_4px_#fff,0_0_30px_6px_#fff] bg-green-200"
                     />
                     <img
                         alt="Tuple"
                         src={aliexpress}
                         width={158}
                         height={48}
-                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                        className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 shadow-[0_0_10px_2px_#fff,0_0_20px_4px_#fff,0_0_30px_6px_#fff] bg-red-200"
                     />
                     <img
                         alt="SavvyCal"
                         src={alibaba}
                         width={158}
                         height={48}
-                        className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
+                        className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1 shadow-[0_0_10px_2px_#fff,0_0_20px_4px_#fff,0_0_30px_6px_#fff] bg-orange-200"
                     />
                     <img
                         alt="Statamic"
                         src={wallmart}
                         width={158}
                         height={48}
-                        className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+                        className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1 shadow-[0_0_10px_2px_#fff,0_0_20px_4px_#fff,0_0_30px_6px_#fff] bg-blue-200"
                     />
                 </div>
             </div>

@@ -29,7 +29,7 @@ export const NavProfile = () => {
   const user = auth
     return (
         <div className="min-h-full">
-            <Disclosure as="nav" className="bg-purple-600">
+            <Disclosure as="nav" className="bg-yellow-400">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="flex h-16 items-center justify-between">
                         <div className="flex items-center">
@@ -37,7 +37,7 @@ export const NavProfile = () => {
                                 <img
                                     alt="Your Company"
                                     src={dog}
-                                    className="size-14"
+                                    className="size-12"
                                 />
                             </div>
                             <div className="hidden md:block">
@@ -48,7 +48,7 @@ export const NavProfile = () => {
                                             to={item.to}
                                             aria-current={item.current ? 'page' : undefined}
                                             className={classNames(
-                                                item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                                                item.current ? 'bg-gray-900 text-white' : 'text-gray-900 hover:bg-gray-700 hover:text-white',
                                                 'rounded-md px-3 py-2 text-sm font-medium',
                                             )}
                                         >

@@ -75,8 +75,6 @@ export const useValidation = () => {
 
     const onSubmit = async (event) => {
         event.preventDefault();
-        sessionStorage.removeItem('paquetes')
-        sessionStorage.removeItem('usuarios')
         setSpiner(true)
         const token = await autenticar(datos) || ''
         if (token?.token?.length > 0) {
@@ -100,6 +98,7 @@ export const useValidation = () => {
     const logout = () => {
         setValido(true)
         sessionStorage.removeItem('token')
+        setSpiner(false)
 
 
         navigate('/login')
@@ -206,27 +205,31 @@ export const useValidation = () => {
             "id": actualizar
         }
         const response = await EncontrarUsuario(obj)
-       
+
         if (response) {
-            
+
             setUpdate(response.exist)
-            
+
             setDosabrir(!dosabrir)
-          
+
         }
         else {
             console.log('error')
         }
 
-     
+
 
     }
     const onUpdateUser = async (event) => {
+
         event.preventDefault()
-        console.log(update)
-        const response = await actualizameusuario(update)
+        const { email, usuario, role, plan } = update
+        const obj = {
+            id, email, usuario, role, plan
+        }
+        const response = await actualizameusuario(obj)
         console.log(response)
-        if(response){
+        if (response) {
             setValido(false)
             setReload(!reload)
             setDosabrir(!dosabrir)
@@ -263,7 +266,7 @@ export const useValidation = () => {
         costoso,
         planes, contrasena, usuario,
         role,
-        plan, onCreateUser, toggleActualiza, dosabrir, actuaCierra,onUpdateUser
+        plan, onCreateUser, toggleActualiza, dosabrir, actuaCierra, onUpdateUser
 
     }
 }

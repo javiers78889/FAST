@@ -1,7 +1,7 @@
 import axios from "axios";
 import Swal from "sweetalert2";
 
-const Api = "https://paperdogback-nl6v.onrender.com/users";
+const Api = "https://paperdogback.onrender.com/users";
 
 export const crearUsuario = async (body) => {
     const storedToken = sessionStorage.getItem("token");

@@ -1,7 +1,7 @@
 import axios from "axios"
 import Swal from "sweetalert2"
 
-const Api = 'https://paperdogback-nl6v.onrender.com/usuarioexistemail'
+const Api = 'https://paperdogback.onrender.com/usuarioexistemail'
 
 
 export const Valida = async (body) => {

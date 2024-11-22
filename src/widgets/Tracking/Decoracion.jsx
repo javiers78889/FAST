@@ -1,5 +1,3 @@
-import { CalendarDaysIcon, HandRaisedIcon } from '@heroicons/react/24/outline'
-import React from 'react'
 
 export const Decoracion = () => {
     return (

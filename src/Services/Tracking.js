@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const ApiRegister = 'https://paperdogback-nl6v.onrender.com/tracking';
+const ApiRegister = 'https://paperdogback.onrender.com/tracking';
 
 export const findPaquetes = async (number) => {
     try {

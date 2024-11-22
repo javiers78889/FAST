@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import  { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import { UserContext } from '../../Context/UserContext'
 
@@ -57,7 +57,7 @@ export const Options = () => {
                     Message
                 </a>
                 {user.role === 'admin' ? (
-                    <Link to={'/profile/usuarios'} className="rounded-full border border-solid border-indigo-600 bg-indigo-600 py-3 px-4 text-sm font-semibold text-white whitespace-nowrap shadow-sm shadow-transparent transition-all duration-500 hover:shadow-gray-200 hover:bg-indigo-700 hover:border-indigo-700">
+                    <Link to={'/profile/usuarios'} className="rounded-full border border-solid border-indigo-600 bg-blue-600 py-3 px-4 text-sm font-semibold text-white whitespace-nowrap shadow-sm shadow-transparent transition-all duration-500 hover:shadow-gray-200 hover:bg-indigo-700 hover:border-indigo-700">
                         Ver Usuario
                     </Link>
                 ) : ('')}

@@ -1,7 +1,7 @@
 import axios from "axios"
 import Swal from "sweetalert2"
 
-const Api = 'https://paperdogback-nl6v.onrender.com/login'
+const Api = 'https://paperdogback.onrender.com/login'
 
 
 export const autenticar = async (body) => {
@@ -10,7 +10,6 @@ export const autenticar = async (body) => {
 
         if (response?.data?.obj?.token) {
             const toke = response.data.obj.token
-            console.log(toke)
 
             sessionStorage.setItem('token', toke)
             return response.data.obj;

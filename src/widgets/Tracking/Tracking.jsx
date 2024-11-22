@@ -1,5 +1,4 @@
 
-import { CalendarDaysIcon, HandRaisedIcon } from '@heroicons/react/24/outline'
 import { useContext } from 'react'
 import { UserContext } from '../../Context/UserContext'
 import { Decoracion } from './Decoracion'
@@ -10,11 +9,11 @@ export const Tracking = () => {
     const { onChange, onInput, rastreo, tracking, buscando } = useContext(UserContext)
     return (
         <>
-            <div className="relative isolate overflow-hidden bg-gray-900 py-16 sm:py-24 lg:py-32">
+            <div className="relative isolate  bg-gradient-to-b from-blue-600 to-blue-900 py-16 sm:py-24 lg:py-40 ">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                    <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
+                    <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2 my-16">
                         <div className="max-w-xl lg:max-w-lg">
-                            <h2 className="text-4xl font-semibold tracking-tight text-white">Rastrea tu paquete a nivel mundial</h2>
+                            <h2 className="text-4xl font-semibold tracking-tight text-white ">Rastrea tu paquete a nivel mundial</h2>
                             <p className="mt-4 text-lg text-gray-300">
                                 Introduce tu Número de Tracking
                             </p>

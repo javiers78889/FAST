@@ -2,7 +2,7 @@ import { useContext } from 'react'
 import { UserContext } from '../../Context/UserContext'
 
 export const ModalUserActualiza = () => {
-    const { dosabrir, onChangeModal, onUpdateUser, email, usuario, contrasena, role, plan,actuaCierra} = useContext(UserContext)
+    const { dosabrir, onChangeModal, onUpdateUser, email, usuario, role, plan,actuaCierra} = useContext(UserContext)
 
 
     return dosabrir ? (
@@ -76,21 +76,7 @@ export const ModalUserActualiza = () => {
                                         required
                                     />
                                 </div>
-                                <div>
-                                    <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                                        password
-                                    </label>
-                                    <input
-                                        type="password"
-                                        name="password"
-                                        id="password"
-                                        value={contrasena}
-                                        onChange={onChangeModal}
-                                        className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
-                                        placeholder="Ingresa El peso o volúmen"
-                                        required
-                                    />
-                                </div>
+                         
 
 
                                 <div>
